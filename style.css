@@ -1,0 +1,48 @@
+body{
+  background: pink;
+}
+span{
+  color:red;
+}
+.salut{
+  display: flex;
+}
+.salut2{
+  width: 40%;
+  height: 50vh;
+}
+img{
+  width: 100%;
+  margin: 0 auto;
+}
+.headers{
+  display: flex;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  font-size: 1.4rem;
+}
+h2{
+  text-align: center;
+  font-size: 1rem;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+li{
+  margin-top: 1rem;
+  list-style: none;
+}
+
+a:hover{
+  color: red;
+}
